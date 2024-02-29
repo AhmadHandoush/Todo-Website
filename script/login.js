@@ -6,7 +6,7 @@ form.addEventListener("submit", function (e) {
   let error = document.getElementById("error");
   let msg;
   e.preventDefault();
-  console.log(username);
+
   if (username === "AdminSEF123" && password === "SeF@ctORy$$456") {
     window.location.replace("../pages/main.html");
   } else {
