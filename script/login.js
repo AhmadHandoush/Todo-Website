@@ -8,7 +8,7 @@ form.addEventListener("submit", function (e) {
   e.preventDefault();
 
   if (username === "AdminSEF123" && password === "SeF@ctORy$$456") {
-    window.location.replace("../pages/main.html");
+    window.location.replace("pages/main.html");
   } else {
     msg = "wrong pass or email please try again!";
     error.innerText = msg;
